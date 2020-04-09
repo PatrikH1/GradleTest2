@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="15dde230-0b0a-455d-a379-f28b3a595d15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testTemplate/SomeValuesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testTemplate/SomeGenericValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testTemplate/MainTestTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testTemplate/MainTestTemplate.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +87,12 @@
   </component>
   <component name="ProjectId" id="1XRqtxHuKUtGWn0HBvs2UzFr4gp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
@@ -85,19 +111,7 @@
       <recent name="C:\Patrik\Gradle\gradleTest2\src\main\java\gradleTest2" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Gradle.gradleTest2 [build]">
+  <component name="RunManager" selected="Gradle.gradleTest2 [run]">
     <configuration name="gradleTest2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,6 +124,25 @@
         <option name="taskNames">
           <list>
             <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="gradleTest2 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.gradleTest2 [clean]" />
         <item itemvalue="Gradle.gradleTest2 [run]" />
         <item itemvalue="Gradle.gradleTest2 [build]" />
       </list>
@@ -161,12 +195,53 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2507" y="88" key="CommitChangelistDialog2" timestamp="1586466637515">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2507" y="88" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586466637515" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1586469839178">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586469839178" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1586469839178">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586469839178" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1586469839178">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586469839178" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1586469839178">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586469839178" />
+    <state x="2648" y="222" key="RollbackChangesDialog" timestamp="1586465754851">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2648" y="222" key="RollbackChangesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586465754851" />
+    <state x="237" y="145" width="1095" height="710" key="dock-window-1" timestamp="1586469843741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="237" y="145" width="1095" height="710" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586469843741" />
+    <state x="94" y="34" width="1095" height="710" key="dock-window-2" timestamp="1586469843741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="94" y="34" width="1095" height="710" key="dock-window-2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586469843741" />
+    <state x="438" y="102" width="1095" height="710" key="dock-window-3" timestamp="1586469843741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="438" y="102" width="1095" height="710" key="dock-window-3/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586469843741" />
+    <state x="2297" y="157" width="1097" height="711" key="dock-window-4" timestamp="1586470153522">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2297" y="157" width="1097" height="711" key="dock-window-4/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586470153522" />
   </component>
 </project>

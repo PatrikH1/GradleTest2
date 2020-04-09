@@ -12,6 +12,19 @@ public class MainTestTemplate {
         System.out.println("Value of String: " + stringFromValues1);
         System.out.println("Value of Long: " + longFromValues1);
         System.out.println("Value of Float: " + longFromValues1);
+
+        // Test of the class SomeGenericValues
+        SomeGenericValues<String, Long, Float> valuesGeneric1 = new SomeGenericValues("Hej", 34L, 345.89F);
+
+        String value1 = SomeGenericValues.getVarde("value1", valuesGeneric1);
+        Long value2 = SomeGenericValues.getVarde("value2", valuesGeneric1);
+        Float value3 = SomeGenericValues.getVarde("value3", valuesGeneric1);
+
+        System.out.println("Value of String: " + value1);
+        System.out.println("Value of Long: " + value2);
+        System.out.println("Value of Float: " + value3);
+
+
     }
 
 }
