@@ -31,5 +31,6 @@ dependencies {
 application {
     // Define the main class for the application.
     // mainClassName = 'gradleTest2.App'
-    mainClassName = 'testTemplate.MainTestTemplate'
+    // mainClassName = 'testTemplate.MainTestTemplate'
+    mainClassName = 'streamTest.MainSearchValues'
 }
