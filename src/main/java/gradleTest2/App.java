@@ -5,7 +5,7 @@ package gradleTest2;
 
 public class App {
     public String getGreeting() {
-        return "Hello world.";
+        return "Hello world first.";
     }
 
     public static void main(String[] args) {
