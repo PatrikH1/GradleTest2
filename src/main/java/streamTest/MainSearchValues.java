@@ -18,6 +18,9 @@ public class MainSearchValues {
         String questionCapital = "Oslo";
         String answer = searchCountry(capitalCities, questionCapital);
 
+        System.out.println();
+        System.out.println();
+
         if (answer != null) {
             System.out.println(answer + " has capital " + questionCapital);
         }
@@ -35,6 +38,9 @@ public class MainSearchValues {
         else {
             System.out.println("No capital found for country " + questionCountry);
         }
+
+        System.out.println();
+        System.out.println();
 
         // System.out.println(capitalCities);
     }
