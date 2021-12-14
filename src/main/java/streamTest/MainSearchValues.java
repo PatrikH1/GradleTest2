@@ -20,6 +20,8 @@ public class MainSearchValues {
 
         System.out.println();
         System.out.println();
+        System.out.println("------------------------------");
+
 
         if (answer != null) {
             System.out.println(answer + " has capital " + questionCapital);
@@ -39,6 +41,7 @@ public class MainSearchValues {
             System.out.println("No capital found for country " + questionCountry);
         }
 
+        System.out.println("------------------------------");
         System.out.println();
         System.out.println();
 
