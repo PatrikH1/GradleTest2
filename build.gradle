@@ -28,9 +28,25 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+test {
+    useJUnit()
+
+    maxHeapSize = '1G'
+}
+
+task('hello') {
+    doLast {
+        println "-------------"
+        println "hello"
+        println "-------------"
+    }
+}
+
+
 application {
     // Define the main class for the application.
-    mainClassName = 'gradleTest2.App'
+    // mainClassName = 'gradleTest2.App'
+    mainClassName = 'testTemplate.SomeGenericValues'
     // mainClassName = 'testTemplate.MainTestTemplate'
     // mainClassName = 'streamTest.MainSearchValues'
 }

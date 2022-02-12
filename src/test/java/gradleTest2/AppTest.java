@@ -19,4 +19,9 @@ public class AppTest {
         assertEquals("Hello world first.", classUnderTest.getGreeting());
     }
 
+    @Test public void testAppHasCorrectGreetingNumberTwoText() {
+        App classUnderTest = new App();
+        assertEquals("Hello world number two.", classUnderTest.getGreetingNumberTwo());
+    }
+
 }

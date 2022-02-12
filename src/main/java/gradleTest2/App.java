@@ -8,7 +8,12 @@ public class App {
         return "Hello world first.";
     }
 
+    public String getGreetingNumberTwo() {
+        return "Hello world number two.";
+    }
+
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println(new App().getGreetingNumberTwo());
     }
 }
