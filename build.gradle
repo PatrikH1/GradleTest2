@@ -48,8 +48,6 @@ task('hello') {
 
 // Kommentar bort
 
-// Mera kommentarer
-
 application {
     // Define the main class for the application.
     // mainClassName = 'gradleTest2.App'
