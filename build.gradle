@@ -43,6 +43,7 @@ task('hello') {
     }
 }
 
+// Lagt till en kommentar i build.gradle
 
 application {
     // Define the main class for the application.
