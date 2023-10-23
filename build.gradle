@@ -14,6 +14,7 @@ plugins {
     id 'application'
 }
 
+
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
@@ -45,8 +46,8 @@ task('hello') {
 
 application {
     // Define the main class for the application.
-    // mainClassName = 'gradleTest2.App'
-    mainClassName = 'testTemplate.SomeGenericValues'
+    mainClassName = 'gradleTest2.App'
+    // mainClassName = 'testTemplate.SomeGenericValues'
     // mainClassName = 'testTemplate.MainTestTemplate'
     // mainClassName = 'streamTest.MainSearchValues'
 }
